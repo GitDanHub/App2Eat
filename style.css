@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+.right {
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    background: #A52A2A;
+    text-align: center;
+}
+.row {
+    width: 65%;
+    height: auto;
+    background-color: rgba(255, 0, 0, 1);
+}
+.crop {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    font-size: 0;
+}
+.crop img {
+    width: 100%;
+    padding: 0px;
+}
+.logo img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 4vh;
+    border-radius: 40px;
+    background: transparent url("GOOD.png") center center no-repeat;
+}
+.right input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.6s ease-in-out;
+    transition: width 0.6s ease-in-out;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 9vh;    
+}
+.right button1{
+    background: #d91414;
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;   
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 14vh;
+    width: 50%
+}
+.right button1:hover {
+  background: #cf0f0f;
+  text-decoration: none;
+}
+.right button2{
+    background: #d91414;
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 19vh;
+    width: 50%
+    
+}
+.right button2:hover {
+  background: #cf0f0f;
+  text-decoration: none;
+}
+input[type=text]:focus {
+    width: 80%;
+}
+.right input[type=range]{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 28.5vh;
+}
+.right label{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 22vh;    
+    
+}
+.right output{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 21vh;
+}

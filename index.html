@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+			
+	
+	</head>
+	
+	<body>
+		<div class="right">
+            <div class="logo">
+                <img src="imgs/GOOD.png">            
+            </div>
+            
+<!--
+            <select id="category" onchange="Selcted_Item">
+                <option value="volvo">-קטגוריה-</option>
+                <option value="volvo">המבורגר</option>
+                <option value="saab">אסייתי</option>
+                <option value="opel">ביתי</option>
+                <option value="audi">פיצה</option>
+                <option value="volvo">סנדביצ'ים</option>
+                <option value="saab">סלטים</option>
+                <option value="opel">צ'יפס</option>
+                <option value="audi">סטייקים</option>
+                <option value="volvo">פסטה</option>
+                <option value="saab">שווארמה</option>
+            </select>
+-->
+            
+        <button1 id = "b1" type="button" onclick="disablesecondbutton()">משלוח</button1>
+        <button2 id = "b2" type="button" onclick="disablefirstbutton()">לשבת</button2>
+        
+        <label for="prices">:מחיר</label>
+        <input type="range" id="prices" min="0" value="30" max="150" step="10" oninput="outputUpdate(value)">
+        <output for="prices" id="volume">30</output>
+            
+        </div>
+        
+        
+<div class="row">
+    <a id="burger" href="#">
+    <div class="crop"> 
+        <img src = "imgs/hamburger.jpg">
+        </div>
+    </a>
+    <a href="soon.html">
+    <div class="crop"> 
+        <img src = "imgs/asian.jpg">
+        </div>
+    </a>
+    <a href="soon.html">
+    <div class="crop"> 
+        <img src = "imgs/hot_meal.jpg">
+        </div>
+    </a>
+    <a href="soon.html">
+    <div class="crop"> 
+        <img src = "imgs/pizza.jpg">
+        </div>
+    </a>
+    <a href="soon.html">
+    <div class="crop"> 
+        <img src = "imgs/salad.jpg">
+        </div>
+    </a>
+    <a href="soon.html">
+    <div class="crop"> 
+        <img src = "imgs/sandwich.jpg">
+        </div>
+    </a>
+    <a href="soon.html">
+    <div class="crop"> 
+        <img src = "imgs/steak.jpg">
+        </div>
+    </a>
+    <a href="soon.html">
+    <div class="crop"> 
+        <img src = "imgs/fries.jpg">
+        </div>
+    </a>
+    <a href="soon.html">
+    <div class="crop"> 
+        <img src = "imgs/shawarma.jpg">
+        </div>
+    </a>
+    <a href="soon.html">
+    <div class="crop"> 
+        <img src = "imgs/pasta.jpg">
+        </div>
+        </a>
+    </div>
+    
+        <script>
+        $('#burger').click(function()
+                           {        var val = document.getElementById("prices").value;
+    window.location='burgerlist.php?price='+val;});
+
+    </script>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
